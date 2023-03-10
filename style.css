@@ -1,0 +1,96 @@
+/* Write some CSS below */
+body{
+    background-color: white;
+    color: black;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0;
+}
+
+h1{
+    font-family: 'Chivo', sans-serif;
+    font-size: 45px;
+    color: white;
+    font-weight: 900;
+}
+
+h2{
+    font-family: 'Chivo', sans-serif;
+    font-weight: 700;
+}
+
+h3{
+    font-family: 'Chivo', sans-serif;
+    font-weight: 700;
+}
+
+.banner{
+    padding: 150px 0px;
+    margin: 0;
+    background-image: url('images/Photo\ banner.png');
+    background-size: cover;
+    background-position: center;
+    text-align: center;    
+}
+
+#banner-p{
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.btn-blue{
+    background-color: #2039DA;
+    color: white;
+    text-decoration: none;
+    padding: 20px 50px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.btn-blue:hover{
+    background-color: #9C3230;
+    color: #2039DA;
+}
+
+.container{
+    width: 900px;
+    margin: 50px auto;
+}
+
+.card-white{
+    background-color: white;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 10%);
+    padding: 24px;
+    margin: 8px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
+}
+
+.card-white-img{
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.footer{
+    background-color: #2039DA;
+    color: white;
+    padding: 25px 50px;
+    height: 50px;
+}
+
+/* breaking points */
+@media (max-width:900px){
+    .cards{
+        grid-template-columns: 1fr 1fr;
+    }
+    .container{
+        width: 700px;
+    }
+}
